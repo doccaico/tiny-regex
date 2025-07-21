@@ -23,5 +23,7 @@ pub fn build(b: *std.Build) void {
         .file = upstream.path("re.c"),
     });
 
+    lib.installHeader(upstream.path("re.h"), "re.h");
+
     b.installArtifact(lib);
 }
