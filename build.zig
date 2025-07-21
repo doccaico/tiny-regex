@@ -9,7 +9,6 @@ pub fn build(b: *std.Build) void {
         .root_module = b.createModule(.{
             .target = b.standardTargetOptions(.{}),
             .optimize = b.standardOptimizeOption(.{}),
-            .strip = true,
             .link_libc = true,
         }),
     });
