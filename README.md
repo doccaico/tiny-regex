@@ -1,5 +1,5 @@
 # tiny-regex
-Zig build package for [tiny-regex-c](https://github.com/kokke/tiny-regex-c)
+[tiny-regex-c](https://github.com/kokke/tiny-regex-c) built with Zig.
 
 ## Fetch
 ```sh
