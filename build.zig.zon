@@ -1,0 +1,17 @@
+.{
+    .name = .tiny_regex,
+    .version = "0.0.0",
+    .fingerprint = 0x2987e8eff3ddbe64, // Changing this has security and trust implications.
+    .minimum_zig_version = "0.15.0-dev.1149+4e6a04929",
+    .dependencies = .{
+        .@"tiny-regex" = .{
+            .url = "git+https://github.com/kokke/tiny-regex-c#f2632c6d9ed25272987471cdb8b70395c2460bdb",
+            .hash = "N-V-__8AADcUBACFmX_AMoVHXxWz85TxH9jNW9OXPSyBgD8Y",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
